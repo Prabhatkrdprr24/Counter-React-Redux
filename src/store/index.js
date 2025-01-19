@@ -19,7 +19,7 @@ const counterReducer = (store = INITIAL_VALUE, action) => {
         return {...store, counter: store.counter - Number(action.payload.val)}
     }
     else if(action.type === "PRIVACY_TOGGLE"){
-        return {...store, counter: store.counter};
+        return {...store, privacy: !store.privacy};
     }
     // console.log("Action Received ", action);
     
