@@ -1,0 +1,16 @@
+.cardBorder{
+  margin: 50px;
+  background-color: antiquewhite;
+}
+
+.number-input{
+  max-width: 110px;
+}
+
+.input-div{
+  margin-top: 10px;
+}
+
+.text-button{
+  max-width: 100px;
+}
